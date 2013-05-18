@@ -14,7 +14,6 @@
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		00BAE65A0E7ED9C10018A608 /* ExpressionsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* ExpressionsApp.cpp */; };
-		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
@@ -24,6 +23,7 @@
 		7B110ADB1744D69600B12E9A /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B110AD31744D4B300B12E9A /* Syphon.framework */; };
 		7BBC20B7174610CC003EB00C /* active.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC20B5174610CC003EB00C /* active.mp3 */; };
 		7BBC20B8174610CC003EB00C /* rest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC20B6174610CC003EB00C /* rest.mp3 */; };
+		7BBC20BC17461775003EB00C /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC20BB17461775003EB00C /* CinderApp.icns */; };
 		7BD6A61116D9542700A68D7D /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6A60D16D9542700A68D7D /* OscBundle.cpp */; };
 		7BD6A61216D9542700A68D7D /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6A60E16D9542700A68D7D /* OscListener.cpp */; };
 		7BD6A61316D9542700A68D7D /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6A60F16D9542700A68D7D /* OscMessage.cpp */; };
@@ -57,7 +57,6 @@
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		00BAE6590E7ED9C10018A608 /* ExpressionsApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExpressionsApp.cpp; path = ../src/ExpressionsApp.cpp; sourceTree = SOURCE_ROOT; };
-		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = SOURCE_ROOT; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -69,6 +68,7 @@
 		7B110AD31744D4B300B12E9A /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Syphon.framework; path = "../../../blocks/Cinder-Syphon/lib/Syphon.framework"; sourceTree = "<group>"; };
 		7BBC20B5174610CC003EB00C /* active.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = active.mp3; path = ../resources/active.mp3; sourceTree = "<group>"; };
 		7BBC20B6174610CC003EB00C /* rest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rest.mp3; path = ../resources/rest.mp3; sourceTree = "<group>"; };
+		7BBC20BB17461775003EB00C /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = "<group>"; };
 		7BD6A5DF16D952DB00A68D7D /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		7BD6A60D16D9542700A68D7D /* OscBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscBundle.cpp; sourceTree = "<group>"; };
 		7BD6A60E16D9542700A68D7D /* OscListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscListener.cpp; sourceTree = "<group>"; };
@@ -198,11 +198,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BBC20BB17461775003EB00C /* CinderApp.icns */,
 				7BBC20B5174610CC003EB00C /* active.mp3 */,
 				7BBC20B6174610CC003EB00C /* rest.mp3 */,
 				7BD6A64D16D95BDF00A68D7D /* FaceOSCSyphon.app */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -367,10 +367,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
 				7BD6A64E16D95BDF00A68D7D /* FaceOSCSyphon.app in Resources */,
 				7BBC20B7174610CC003EB00C /* active.mp3 in Resources */,
 				7BBC20B8174610CC003EB00C /* rest.mp3 in Resources */,
+				7BBC20BC17461775003EB00C /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

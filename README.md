@@ -1,4 +1,9 @@
 #instaluciano
+Improve your singing skills with FaceOSC + Cinder.
+
+### [Download the demo](http://jakepyne.co.uk/downloads/instaLuciano.zip) (mac only)
+
+Elevator music in the demo by [Kevin MacLeod](http://incompetech.com/music/royalty-free/?genre=Jazz)
 
 To compile, you need:
 - [Cinder](http://libcinder.org/), with the [Cinder-Syphon](https://github.com/astellato/Cinder-Syphon) and osc blocks

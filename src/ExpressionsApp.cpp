@@ -54,7 +54,7 @@ void ExpressionsApp::setup()
     
     mTrackRest = audio::Output::addTrack( audio::load( loadResource( RES_AUD_REST ) ) );
     mTrackRest->setLooping(true);
-    mTrackRest->setVolume(0.05);
+    mTrackRest->setVolume(0.2);
     mTrack = REST;
 
     mMh = 0;
@@ -90,7 +90,7 @@ void ExpressionsApp::update()
                 mTrack = REST;
                 mTrackActive->stop();
                 mTrackRest->play();
-                mTrackRest->setVolume(0.05);
+                mTrackRest->setVolume(0.2);
             }
             break;
     }
