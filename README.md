@@ -1,7 +1,7 @@
 #instaluciano
 Improve your singing skills with FaceOSC + Cinder.
 
-### [Download the demo](http://jakepyne.co.uk/downloads/instaLuciano.zip) (mac only)
+###[demo](https://vimeo.com/68372283)
 
 Elevator music in the demo by [Kevin MacLeod](http://incompetech.com/music/royalty-free/?genre=Jazz)
 
